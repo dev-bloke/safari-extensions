@@ -1,0 +1,12 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 13px;
+  color: Gray;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  color: DimGray;
+}

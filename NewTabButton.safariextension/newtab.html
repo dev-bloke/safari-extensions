@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Tab</title>
+    <script>
+      var newTabButton = {
+          performCommand : function(event) {
+              if (event.command == "newTabFromButton") {
+                  var tab = safari.application.activeBrowserWindow.openTab();
+                  if (safari.extension.settings.tabContents == "url") {
+                      tab.url = safari.extension.settings.url;
+                  }
+              }
+          }       
+      };
+      safari.application.addEventListener("command", newTabButton.performCommand, false);
+    </script>
+  </head>
+  <body>
+    <h1>New Tab</h1>
+    <p>This extension reinstates the New Tab button that was removed in Safari 8.0.</p>
+  </body>
+</html>

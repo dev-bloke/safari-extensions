@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Show Tab URLs</title>
+  </head>
+  <script>
+    var showTabUrls = {
+        updatePopover : function(event) {
+            if (event.target.identifier == "showTabUrlPopover") {
+                var popover = safari.extension.popovers[0];
+                var dom = popover.contentWindow.document;
+                var content = dom.getElementById("content");
+                var urlList = "";
+                var tabs = safari.application.activeBrowserWindow.tabs;
+                for (var i = 0; i < tabs.length; i++) {
+                    urlList += "<div>" + tabs[i].url + "</div>";
+                }              
+                content.innerHTML = urlList;
+            }
+        }
+    };
+    safari.application.addEventListener("popover", showTabUrls.updatePopover, true);
+  </script>
+  <body>
+    <h1>Show Tab URLs</h1>
+    <p>This extension lists the URL for each open tab.</p>
+  </body>
+</html>
