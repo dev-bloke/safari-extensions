@@ -14,7 +14,7 @@
        <key>CFBundleShortVersionString</key>
        <string>1.0</string>
        <key>URL</key>
-       <string>Your-.safariextz-URL</string>
+       <string>https://github.com/dev-bloke/safari-extensions/releases/download/1.0.0/NewTabButton.safariextz</string>
      </dict>
      <dict>
        <key>CFBundleIdentifier</key>
@@ -26,7 +26,7 @@
        <key>CFBundleShortVersionString</key>
        <string>1.0</string>
        <key>URL</key>
-       <string>Your-.safariextz-URL</string>
+       <string>https://github.com/dev-bloke/safari-extensions/releases/download/1.0.0/ShowTabURLs.safariextz</string>
      </dict>
    </array>
 </dict>
