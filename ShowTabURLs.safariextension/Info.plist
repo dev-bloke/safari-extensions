@@ -72,6 +72,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/dev-bloke/safari-extensions/blob/master/Updates/updates.plist</string>
 	<key>Website</key>
 	<string>https://github.com/dev-bloke/safari-extensions/wiki/Show-Tab-URLs</string>
 </dict>

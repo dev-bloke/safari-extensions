@@ -54,6 +54,8 @@
 		<key>Website Access</key>
 		<dict/>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/dev-bloke/safari-extensions/blob/master/Updates/updates.plist</string>
 	<key>Website</key>
 	<string>https://github.com/dev-bloke/safari-extensions/wiki/New-Tab-Button</string>
 </dict>
