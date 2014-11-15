@@ -12,6 +12,7 @@
 		<key>Titles</key>
 		<array>
 			<string>Empty</string>
+			<string>Favorites</string>
 			<string>URL</string>
 		</array>
 		<key>Type</key>
@@ -19,6 +20,7 @@
 		<key>Values</key>
 		<array>
 			<string>empty</string>
+			<string>favorites</string>
 			<string>url</string>
 		</array>
 	</dict>

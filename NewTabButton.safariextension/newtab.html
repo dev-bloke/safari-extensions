@@ -10,6 +10,9 @@
                   if (safari.extension.settings.tabContents == "url") {
                       tab.url = safari.extension.settings.url;
                   }
+                  else if (safari.extension.settings.tabContents == "favorites") {
+                      tab.url = "favorites://";
+                  }
               }
           }       
       };
