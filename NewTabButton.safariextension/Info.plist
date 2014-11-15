@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -28,7 +28,7 @@
 				<key>Identifier</key>
 				<string>newTabFromButton</string>
 				<key>Image</key>
-				<string>plus.png</string>
+				<string>plus@2x.png</string>
 				<key>Label</key>
 				<string>New Tab</string>
 				<key>Palette Label</key>
