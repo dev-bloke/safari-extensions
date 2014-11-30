@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Martin Ingram</string>
 	<key>Builder Version</key>
-	<string>10600.1.25</string>
+	<string>10600.1.25.1</string>
 	<key>CFBundleDisplayName</key>
 	<string>New Tab Button</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -55,7 +55,7 @@
 		<dict/>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>https://github.com/dev-bloke/safari-extensions/blob/master/Updates/updates.plist</string>
+	<string>https://raw.githubusercontent.com/dev-bloke/safari-extensions/master/Updates/updates.plist</string>
 	<key>Website</key>
 	<string>https://github.com/dev-bloke/safari-extensions/wiki/New-Tab-Button</string>
 </dict>
